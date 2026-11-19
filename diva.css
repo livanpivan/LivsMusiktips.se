@@ -1,3 +1,6 @@
+
+/*Väljer bakgrundsfärg för samtliga flikar*/
+
 .startsida {
     background-color: #E8D58A;
 }
@@ -14,26 +17,20 @@
     background-color: #e0bbfff1;
 }
 
+/*färg och font för text i body*/
 body {
 color:#282321;
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+/*färg och storlek på header-blocket*/
 header {
 background-color: #762d36;
 padding: 30px;
-
-
 }
 
-img {
-max-width: 100%;
-height: auto
-}
-
-
-
+/* styr font, färg och placering för rubriken*/
 h1 {
 font-family:Georgia, serif;
 font-size: 32px;
@@ -41,8 +38,7 @@ color:#F5EBD5;
 text-align:center;
 }
 
-
-
+/*centrering, storlek och layout för bilderna på varje sida*/
 #vinyl img,
 #covers img,
 #publik img,
@@ -57,9 +53,7 @@ margin: 20px auto;
 }
 
 
-
-
-
+/*färg och form för knapparna i menyn längst upp*/
 .knappar a {
     background-color:#E8D58A;
     color:#762D36;
@@ -77,27 +71,26 @@ gap: 1rem;
 flex-wrap: wrap;
 }
 
+/*ändrar färg när man drar muspekaren över*/
 .knappar a:hover {
 background-color:#D87942;
     color: #F5EBD5;
-
-
 }
 
 
 main {
-background-color:#E8D58A;
-min-height: 100vh;
 padding: 20px;
 text-align: center;
-
 }
+
+/*bestämmer font, färg och centrering för underrubriker*/
 h2 {
 font-family: Arial, Helvetica, sans-serif;
 color: #762D36;
 text-align: center;
 }
 
+/*färg, font och centrering för text*/
 p {
     color: #282321;
     font-family: Georgia, Times, serif;
@@ -105,7 +98,7 @@ p {
     text-align: center;
 }
 
-
+/*egenskaper för knapparna i sidorna album och artister*/
 summary {
 cursor: pointer;
 font-weight: bold;
@@ -114,10 +107,9 @@ display: inline-block;
 padding: 12px 25px;
 border-radius: 8px;
 color: #F5EBD5;
-
 }
 
-
+/*egenskaper för tipslistorna*/
 .album-lista{
     list-style: none;
     justify-content: center;
@@ -129,7 +121,7 @@ color: #F5EBD5;
     gap: 30px;
 
 }
-
+/*egenskaper för bilderna till varje tips*/
 .album-lista img {
     display: block;
     margin: 0 auto;
@@ -139,11 +131,13 @@ color: #F5EBD5;
     border-radius: 8px;
 }
 
+/*egenskaper för texten i tipsen*/
 .album-lista li {
     text-align: center;
     width: 220px;
 }
 
+/*egenskaper för knapparna indie, glam osv*/
 .genre-meny {
     display: flex;
     justify-content: center;
@@ -155,6 +149,7 @@ color: #F5EBD5;
     margin: 25px auto;
 }
 
+/*färg för text på sidan Artister*/
 .artister p{
     color:#F5EBD5;
 }
@@ -163,6 +158,7 @@ color: #F5EBD5;
     color: #F5EBD5;
 }
 
+/*egenskaper för slumpknappen*/
 #slump-knapp {
     display: block;
     margin: 25px auto;
@@ -176,11 +172,12 @@ color: #F5EBD5;
     border-radius: 8px;
     cursor: pointer;
 }
-
+/*ändra färg när muspekaren vilar på slumpknappen*/
 #slump-knapp:hover {
 background-color: #D87942;
 }
 
+/*utseendet på tipsen som slumpas fram*/
 #tips {
     text-align: center;
     font-size: 22px;
