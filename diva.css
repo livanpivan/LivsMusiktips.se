@@ -200,3 +200,41 @@ background-color: #D87942;
     margin-top: 15px;
     min-height: 30px;
 }
+
+/*mobilanpassningar*/
+@media (max-width: 600px) {
+    header {
+        padding: 20px 10px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+/*gör menyknapparna nättare för mobil*/
+.knappar {
+    gap:  0,5rem;
+}
+.knappar a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+/*gör omslagsbilderna längre på mobilen*/
+#vinyl img,
+#covers img,
+#publik img,
+#wildcard img {
+    height: 180px;
+
+}
+
+/*lägger meny-knapparna centrerat under varandra på mobil*/
+.genre-meny {
+    flex-direction: column;
+    align-items: center;
+}
+}
