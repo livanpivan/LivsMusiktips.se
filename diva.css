@@ -216,7 +216,7 @@ background-color: #D87942;
 
 /*gör menyknapparna nättare för mobil*/
 .knappar {
-    gap:  0,5rem;
+    gap:  2rem;
 }
 .knappar a {
     padding: 10px 14px;
