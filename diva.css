@@ -1,6 +1,4 @@
-
 /*Väljer bakgrundsfärg för samtliga flikar*/
-
 .startsida {
     background-color: #E8D58A;
 }
@@ -27,13 +25,13 @@ font-family: Arial, Helvetica, sans-serif;
 /*färg och storlek på header-blocket*/
 header {
 background-color: #762d36;
-padding: 30px;
+padding: 40px;
 }
 
 /* styr font, färg och placering för rubriken*/
 h1 {
 font-family:Georgia, serif;
-font-size: 32px;
+font-size: 55px;
 color:#F5EBD5;
 text-align:center;
 }
@@ -52,22 +50,22 @@ border-radius: 10px;
 margin: 20px auto;
 }
 
-
 /*färg och form för knapparna i menyn längst upp*/
 .knappar a {
     background-color:#E8D58A;
     color:#762D36;
-    padding: 15px 25px;
+    padding: 20px 35px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
 }
 
+/*funktion för knappar i navigeringsmenyn*/
 .knappar {
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 1rem;
+gap: 2rem;
 flex-wrap: wrap;
 }
 
@@ -76,7 +74,6 @@ flex-wrap: wrap;
 background-color:#D87942;
     color: #F5EBD5;
 }
-
 
 main {
 padding: 20px;
@@ -88,16 +85,31 @@ h2 {
 font-family: Arial, Helvetica, sans-serif;
 color: #762D36;
 text-align: center;
+font-size: 40px;
 }
 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #762D36;
+    text-align: center;
+    font-size: 30px;
+}
 /*färg, font och centrering för text*/
 p {
     color: #282321;
     font-family: Georgia, Times, serif;
     align-content: center;
     text-align: center;
+    font-size: 15px;
 }
 
+.startsida p {
+    font-size: 20px;
+}
+
+.wildcards p {
+    font-size: 20px;
+}
 /*egenskaper för knapparna i sidorna album och artister*/
 summary {
 cursor: pointer;
@@ -121,6 +133,7 @@ color: #F5EBD5;
     gap: 30px;
 
 }
+
 /*egenskaper för bilderna till varje tips*/
 .album-lista img {
     display: block;
@@ -172,6 +185,7 @@ color: #F5EBD5;
     border-radius: 8px;
     cursor: pointer;
 }
+
 /*ändra färg när muspekaren vilar på slumpknappen*/
 #slump-knapp:hover {
 background-color: #D87942;

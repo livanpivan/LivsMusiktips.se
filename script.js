@@ -6,7 +6,11 @@ const latar = ["Kent - VinterNoll2",
     "David Bowie - China Girl",
     "Guns N' Roses - You Could Be Mine",
     "The Smiths - Handsome Devil",
-    "Tame Impala - Loser"
+    "Tame Impala - Loser",
+    "Derek & The Dominos - Layla",
+    "The Rolling Stones - Out of Time",
+    "Nirvana - Heart-Shaped Box",
+    "Creedence Clearwater Revival - Have You Ever Seen The Rain"
 ]
 
 //funktion när användaren klickar på knappen
