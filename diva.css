@@ -216,11 +216,11 @@ background-color: #D87942;
 
 /*gör menyknapparna nättare för mobil*/
 .knappar {
-    gap:  2rem;
+    gap:  6px;
 }
 .knappar a {
-    padding: 10px 14px;
-    font-size: 14px;
+    padding: 8px 10px;
+    font-size: 12px;
 }
 
 /*gör omslagsbilderna längre på mobilen*/
